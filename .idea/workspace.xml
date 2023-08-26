@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92d2fdb0-9005-4b78-bd52-618989125b8a" name="Changes" comment="create build for production">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Stats.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Stats.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Text.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Text.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/charTransform.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/charTransform.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store/timerSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store/timerSlice.ts" afterDir="false" />
-    </list>
+    <list default="true" id="92d2fdb0-9005-4b78-bd52-618989125b8a" name="Changes" comment="disable eslint" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +65,7 @@
       <workItem from="1692991403493" duration="168000" />
       <workItem from="1693050288757" duration="2421000" />
       <workItem from="1693076099211" duration="162000" />
-      <workItem from="1693076263031" duration="2070000" />
+      <workItem from="1693076263031" duration="2402000" />
     </task>
     <task id="LOCAL-00001" summary="modify workspace.xml">
       <option name="closed" value="true" />
@@ -98,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693076333283</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="disable eslint">
+      <option name="closed" value="true" />
+      <created>1693078665363</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693078665363</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +161,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modify workspace.xml" />
     <MESSAGE value="create build for production" />
-    <option name="LAST_COMMIT_MESSAGE" value="create build for production" />
+    <MESSAGE value="disable eslint" />
+    <option name="LAST_COMMIT_MESSAGE" value="disable eslint" />
   </component>
 </project>
