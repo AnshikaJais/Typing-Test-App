@@ -17,7 +17,8 @@ const Test: FunctionComponent = () =>{
 
     function restart(){
         dispatch(resetTextState());
-        dispatch(resetSeconds);
+        // @ts-ignore
+        dispatch(resetSeconds());
         dispatch(setText(restoreText(text)));
 
         if(isTestFinished){
@@ -26,7 +27,8 @@ const Test: FunctionComponent = () =>{
     }
     function newTest() {
         dispatch(resetTestState());
-        dispatch(resetSeconds);
+        // @ts-ignore
+        dispatch(resetSeconds());
     }
 
     return (
