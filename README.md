@@ -1,3 +1,13 @@
+# Typing Test App
+
+About
+A typing test app built using `React` and `Typescript` is a web application designed to assess and improve a user's typing speed and accuracy. It typically provides a user-friendly interface where users can practice their typing skills by typing a given passage of text.
+
+## Here's an look of the website
+![Starting of the test](public/Image1.png)
+![During the test](public/image2.png)
+![Result of the test](public/image3.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
