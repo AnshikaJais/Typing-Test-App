@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92d2fdb0-9005-4b78-bd52-618989125b8a" name="Changes" comment="modify workspace.xml">
+    <list default="true" id="92d2fdb0-9005-4b78-bd52-618989125b8a" name="Changes" comment="create build for production">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Stats.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Stats.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Text.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Text.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/charTransform.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/charTransform.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store/timerSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store/timerSlice.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +23,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -27,22 +35,23 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/anshika_jaiswal/Coding/WEB DEVELOPMENT/typing-test-app&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/media/anshika_jaiswal/Coding/WEB DEVELOPMENT/typing-test-app/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/media/anshika_jaiswal/Coding/WEB DEVELOPMENT/typing-test-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "ts.external.directory.path": "/media/anshika_jaiswal/Coding/WEB DEVELOPMENT/typing-test-app/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,6 +72,7 @@
       <workItem from="1692991403493" duration="168000" />
       <workItem from="1693050288757" duration="2421000" />
       <workItem from="1693076099211" duration="162000" />
+      <workItem from="1693076263031" duration="2070000" />
     </task>
     <task id="LOCAL-00001" summary="modify workspace.xml">
       <option name="closed" value="true" />
@@ -80,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693057544488</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create build for production">
+      <option name="closed" value="true" />
+      <created>1693076333283</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693076333283</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +159,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modify workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify workspace.xml" />
+    <MESSAGE value="create build for production" />
+    <option name="LAST_COMMIT_MESSAGE" value="create build for production" />
   </component>
 </project>

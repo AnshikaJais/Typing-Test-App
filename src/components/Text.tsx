@@ -15,15 +15,17 @@ const Text: FunctionComponent = () =>{
     const mistakes = useAppSelector(state => state.textSlice.mistakes);
     const pressingCount = useAppSelector(state => state.textSlice.pressingCount);
     const sentences = useAppSelector(state => state.testSlice.sentences);
-    console.log(text);
 
-    useEffect(()=>{
-        dispatch(fetchText(sentences));
-    }, [dispatch]);
+    useEffect(() => {
+            dispatch(fetchText(sentences));
+        },
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+        [dispatch]);
 
     useEffect(() => {
         const newText = getCurrentChar(text, currentCharIndex);
         dispatch(setText(newText));
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [dispatch, currentCharIndex]);
 
     useEffect(() => {
@@ -50,6 +52,7 @@ const Text: FunctionComponent = () =>{
                 document.removeEventListener("keypress", keyPressHandler);
             }
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [dispatch, text]);
 
     return(

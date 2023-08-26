@@ -29,7 +29,7 @@ const Stats: FunctionComponent<StatProps> = ({children}) =>{
     useEffect(() => {
         if(isTimerOn){
             const timer = setTimeout(()=>{
-                dispatch(increaseSeconds());
+                dispatch(increaseSeconds);
             }, 1000);
 
             return () => clearTimeout(timer);

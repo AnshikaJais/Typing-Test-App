@@ -1,4 +1,4 @@
-import {createSlice, PayloadAction} from "@reduxjs/toolkit";
+import {createSlice, PayloadAction, Slice} from "@reduxjs/toolkit";
 
 type TimerState = {
     isTimerOn: boolean;
@@ -10,7 +10,7 @@ const initialState = {
     seconds: 0
 }
 
-const timerSlice = createSlice({
+const timerSlice: Slice<TimerState> = createSlice({
     name: "timerSlice",
     initialState,
     reducers: {

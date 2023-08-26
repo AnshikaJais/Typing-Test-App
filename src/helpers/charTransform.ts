@@ -17,12 +17,9 @@ type restoreTextType = (
 ) => TextType[];
 
 export const getCurrentChar: GetCurrentCharType = (charsArray, currentIndex) =>{
-    console.log(currentIndex);
-    console.log(charsArray);
+
     return charsArray.map((item, index) =>{
-        console.log("index: ", index)
         if(index === currentIndex){
-            console.log(item)
             return {
                 ...item,
                 class: 'bg-currentChar text-white'
